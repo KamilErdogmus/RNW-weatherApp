@@ -89,16 +89,25 @@ npx expo start
 #### Using Yarn
 
 ```bash
-yarn start
+yarn expo start
 ```
 
 ## Step 2: Start your Application
 
 Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
+### For Android
+
+##### using npm
+
+```bash
+npx expo run android
+```
+
 #### Using Yarn
 
 ```bash
+
 yarn android
 ```
 
@@ -114,6 +123,20 @@ npx expo run ios
 
 ```bash
 yarn ios
+```
+
+### For Web
+
+##### using npm
+
+```bash
+npx expo run web
+```
+
+#### Using Yarn
+
+```bash
+yarn web
 ```
 
 If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
